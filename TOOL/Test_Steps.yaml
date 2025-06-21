@@ -1,0 +1,20 @@
+output_temp_file: "C:/Users/3108674/automation/IntelligentAutomation/TOOL/Output_temp_file/E2E__fresh_ordering_temp.yaml"
+
+tasks:
+  Step_1:
+    framework: Robot Framework
+    name: Create Store Order Request
+    report_path: E2E_AUTOMATION/reports/Api_6_feb
+    root_path: C:/Users/3108674/automation/IntelligentAutomation
+    test_cases:
+      - Login_To_MCOR_UI
+    test_path: E2E_AUTOMATION/FEATURES/API.robot
+
+  Step_2:
+    framework: Robot Framework
+    name: Execute MCOR UI APPLICATION
+    report_path: E2E_AUTOMATION/reports/Mcorui_6_feb
+    root_path: C:/Users/3108674/automation/IntelligentAutomation
+    test_cases:
+      - Login_To_MCOR_UI
+    test_path: E2E_AUTOMATION/FEATURES/MCOR_UI.robot
